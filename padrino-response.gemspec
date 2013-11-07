@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = Padrino::Response::VERSION
   s.authors     = ["K-2052"]
   s.email       = ["k@2052.me"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/k2052/padrino-response"
   s.summary     = %q{Eliminates the repetitive response code in your Padrino controllers}
   s.description = %q{Eliminates the repetitive response code in your Padrino controllers}
 
