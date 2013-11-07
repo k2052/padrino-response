@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["K-2052"]
   s.email       = ["k@2052.me"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Eliminates the repetitive response code in your Padrino controllers}
+  s.description = %q{Eliminates the repetitive response code in your Padrino controllers}
 
   s.rubyforge_project = "padrino-response"
 

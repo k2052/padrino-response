@@ -1,5 +1,6 @@
 # padrino-response
 
+Simplifies the repetitive response code in your [Padrino](http://www.padrinorb.com/) controllers
 
 ## Installation
 
