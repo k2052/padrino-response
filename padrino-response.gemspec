@@ -5,8 +5,8 @@ require "padrino-response/version"
 Gem::Specification.new do |s|
   s.name        = "padrino-response"
   s.version     = Padrino::Response::VERSION
-  s.authors     = ["Ken Erickson"]
-  s.email       = ["bookworm.productions@gmail.com"]
+  s.authors     = ["K-2052"]
+  s.email       = ["k@2052.me"]
   s.homepage    = ""
   s.summary     = %q{TODO: Write a gem summary}
   s.description = %q{TODO: Write a gem description}
@@ -19,6 +19,11 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   # specify any dependencies here; for example:
-  # s.add_development_dependency "rspec"
-  # s.add_runtime_dependency "rest-client" 
+  s.add_development_dependency "rspec"
+  s.add_development_dependency "adapter"
+  s.add_development_dependency "toystore"
+  s.add_development_dependency "rack-test"
+  s.add_dependency "padrino", ">= 0.10.7"
+  s.add_dependency "rake"
+  s.add_dependency "sinatra-flash", ">= 0.3.0"
 end
