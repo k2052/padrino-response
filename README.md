@@ -73,3 +73,12 @@ end
   - Write tests
   - Commit
   - Pull Request
+
+# Copyright 
+
+This started out as a fork of nu7hatch's [padrino-responders](https://github.com/k2052/padrino-responders); my fork
+diverged enough that I felt it was best to make an entirely new gem. I cant thank nu7hatch enough for the original code
+.
+
+Licensed under MIT
+
