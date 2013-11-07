@@ -1,6 +1,6 @@
 # padrino-response
 
-Simplifies the repetitive response code in your [Padrino](http://www.padrinorb.com/) controllers
+Eliminates the repetitive response code in your [Padrino](http://www.padrinorb.com/) controllers
 
 ## Installation
 
@@ -61,7 +61,7 @@ end
 
 Specify a responder for the controller:
 
-```
+```ruby
 class Padrino::Responders::Main < Padrino::Responders::Default
 end
 ```
